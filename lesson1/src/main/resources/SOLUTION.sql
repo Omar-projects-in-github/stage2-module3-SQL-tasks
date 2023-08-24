@@ -1,4 +1,4 @@
-CREATE TABLE Student(id bigint, name varchar, birthday date, group int, PRIMARY KEY (id));
+CREATE TABLE Student(id bigint, name varchar, birthday date, 'group' int, PRIMARY KEY (id));
 
 CREATE TABLE Subject(id bigint, name varchar, description varchar, grade int, PRIMARY KEY (id));
 
