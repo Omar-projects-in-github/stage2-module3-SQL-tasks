@@ -1,4 +1,4 @@
-INSERT INTO Student (id, name, 'group') VALUES (1, 'John', 1), (2, 'Chris', 1), (3, 'Carl', 1), (4, 'Oliver', 2), (5, 'James', 2), (6, 'Lucas', 2), (7, 'Henry', 2), (8, 'Jacob', 3), (9, 'Logan', 3), (10, 'Harry', 4), (11, 'Megan', 4), (12, 'Ronald', 5), (13, 'Micky', 5);
+INSERT INTO Student (id, name, group_number) VALUES (1, 'John', 1), (2, 'Chris', 1), (3, 'Carl', 1), (4, 'Oliver', 2), (5, 'James', 2), (6, 'Lucas', 2), (7, 'Henry', 2), (8, 'Jacob', 3), (9, 'Logan', 3), (10, 'Harry', 4), (11, 'Megan', 4), (12, 'Ronald', 5), (13, 'Micky', 5);
 
 INSERT INTO Subject (id, name, description, grade) VALUES (1, 'Art', 'Art for grade 1', 1), (2, 'Music', 'Music for grade 1', 1), (3, 'Geography', 'Geography for grade 2', 2), (4, 'History', 'History for grade 2', 2), (5, 'PE', 'PE for grade 3', 3), (6, 'math', 'math for grade 3', 3), (7, 'Science', 'Science for grade 4', 4), (8, 'IT', 'IT for grade 4', 4), (9, 'Deep learning', 'Deep learning for grade 5', 5), (10, 'Computer vision', 'Computer vision for grade 5', 5);
 
