@@ -6,4 +6,4 @@ SELECT * FROM PaymentType ORDER BY name ASC;
 
 SELECT * FROM Student ORDER BY name DESC;
 
-SELECT * FROM Student WHERE id IN (SELECT * FROM Payment WHERE amount > 1000) ORDER BY birthday ASC;
+SELECT DISTINCT s.id, s.name, s.birthday, s.groupnumber FROM Student s JOIN Payment p ON s.id = p.student_id WHERE p.amount > 1000 ORDER BY s.birthday ASC;
