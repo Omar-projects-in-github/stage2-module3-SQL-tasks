@@ -17,7 +17,7 @@ INSERT INTO Subject (id, name, description, grade) VALUES (2, 'Music', 'Music fo
 INSERT INTO Subject (id, name, description, grade) VALUES (3, 'Geography', 'Geography for grade 2', 2);
 INSERT INTO Subject (id, name, description, grade) VALUES (4, 'History', 'History for grade 2', 2);
 INSERT INTO Subject (id, name, description, grade) VALUES (5, 'PE', 'PE for grade 3', 3);
-INSERT INTO Subject (id, name, description, grade) VALUES (6, 'math', 'math for grade 3', 3);
+INSERT INTO Subject (id, name, description, grade) VALUES (6, 'Math', 'math for grade 3', 3);
 INSERT INTO Subject (id, name, description, grade) VALUES (7, 'Science', 'Science for grade 4', 4);
 INSERT INTO Subject (id, name, description, grade) VALUES (8, 'IT', 'IT for grade 4', 4);
 INSERT INTO Subject (id, name, description, grade) VALUES (9, 'Deep learning', 'Deep learning for grade 5', 5);
