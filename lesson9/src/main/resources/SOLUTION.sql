@@ -1,4 +1,4 @@
-SELECT s.* FROM Student s JOIN Mark m ON s.id = m.student_id GROUP BY s.id HAVING AVG(mark) > 8;
+SELECT s.* FROM Student s JOIN Mark m ON s.id = m.student_id GROUP BY m.student_id HAVING AVG(mark) > 8;
 
 SELECT s.id, s.name FROM Student s JOIN Mark m ON s.id = m.student_id GROUP BY s.id, s.name HAVING MIN(m.mark) > 7;
 
